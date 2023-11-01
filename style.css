@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "anonymous pro";
+    src: url(AnonymousPro.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(AnonymousPro.ttf);
+    font-weight: 400;
+  }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 24px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-family: "anonymous pro";
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+} 
+.common-container {
+    max-width: 1161px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #FFF;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+ }
+ .title {
+    margin-left: 140px;
+    padding: 25px 0; 
+    font-family: "anonymous pro";
+    font-size: 48px;
+    font-weight: 767px;
+    }
+ .common-container-header {
+    max-width: 1161px;
+    margin: 0 auto;
+    padding: 30px 0 15px;
+   }
+.main {
+    background-color: #f1f1f1;
+        }
+.footer {
+    background-color: #121723;
+}
+.sneaker {
+    border-radius: 12px;
+    background-color: #FFF;
+    flex-basis: 370px;
+    height: 100%;
+    }
+.container-box img {
+    border-radius: 12px;
+    }
+
+.container-box-title {
+    font-size: 26px;
+    line-height: 26px;
+}
+.section {
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: "anonymous pro";
+ }
+ .footer {
+        background: #121723;
+        height: 142px;
+        display: flex;
+        flex-direction: column;
+    }
+.footer img {
+    display: flex;
+    width: 299.65px;
+    height: 22.01px;
+    text-align: center;
+    padding-top: 32px;
+}
+.line {
+    width: 1160px;
+    height: 2px;
+    opacity: 40%;
+    background-color: #A1A6B4;
+    margin-bottom: 20px;
+}
+.logo-end {
+    display: flex;
+    justify-content: center;
+    font-family: "anonymous pro";
+    color: #A1A6B4;
+    font-size: 16px;
+    padding: inherit; 
+    font-weight: 700;       
+    }
+.list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 24px;
+    padding-top: 32px;   
+}
+.list a {
+    text-decoration: none;
+    color: white;
+    font-family: "anonymous pro";
+}
